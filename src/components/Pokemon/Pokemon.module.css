@@ -1,0 +1,74 @@
+.pokemon {
+    margin: 1%;
+    flex: 1 1 23%;
+}
+
+.descriptions{
+    margin: 0 5%;
+}
+
+.order{
+    color:#919191;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.pName{
+    font-weight:500;
+    margin: 5% 0 2%;
+}
+
+.pImg {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.pTypes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -3px;
+}
+
+.pTypeItem {
+    border-radius: 5px;
+    margin: 3px;
+    padding: 1px 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    flex: 0 1 35%;
+}
+
+.poison {
+    background-color: #B97DC8;
+}
+
+.flying {
+    color: black;
+    background: linear-gradient(to bottom, #3CC3EB 50%,  #B9B9B4 50%);
+}
+
+.fire {
+    background-color: #FA7D23;
+}
+
+.water {
+    background-color: #4191C3;
+}
+
+.grass {
+    color:black;
+    background-color: #9BC850;
+}
+
+.bug {
+    background-color: #6E9B3C;
+}
+
+.defaultType {
+    background-color: #786ffd;
+}
